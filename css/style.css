@@ -1,0 +1,30 @@
+.burger {
+  display: none;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  bottom: 25px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px);
+}
+
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,15px));
+  height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,15px));
+}
+
+.swiper-pagination-bullet {
+  background: #CACACA;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background: #FFFFFF;
+  opacity: 1;
+}
+
+.ac.is-active {
+  margin-bottom: 20px;
+}

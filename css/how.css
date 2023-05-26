@@ -1,0 +1,367 @@
+.how {
+  padding-bottom: 111px;
+}
+
+.how__container {
+  max-width: 1770px;
+  flex-direction: column;
+}
+
+.how__title {
+  margin-bottom: 50px;
+}
+
+.how__step {
+  margin-bottom: 46px;
+}
+
+.how__step-btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  transition: color 0.3s ease-in-out;
+}
+
+.how__step-btn:focus {
+  color: #333333;
+  outline: 2px solid #FF9900;
+  outline-offset: 5px;
+}
+
+.how__step-btn:hover {
+  color: #FF9900;
+}
+
+.how__step-btn:active {
+  outline: none;
+  color: #E1670E;
+}
+
+.how__step-block:not(:last-child) {
+  margin-right: 86px;
+}
+
+
+.how__descrblock-title {
+  margin: 0;
+  margin-bottom: 7px;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.how__descrblock-desc {
+  margin-bottom: 50px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.how__descrblock-btn1 {
+  padding: 20px 40px;
+  background: #FF9900;
+  color: #FFFFFF;
+  margin-right: 32px;
+  border-radius: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.how__descrblock-btn1:focus {
+  background: rgba(255, 153, 0, 0.7);
+}
+
+.how__descrblock-btn1:hover {
+  background: rgba(255, 153, 0, 0.7);
+}
+
+.how__descrblock-btn1:active {
+  background: #E1670E;
+}
+
+.how__descrblock-btn2 {
+  padding: 20px 38px;
+  border: 1px solid #333333;
+  border-radius: 16px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.how__descrblock-btn2:focus {
+  outline: none;
+  color: #FFFFFF;
+  background: #666666;
+}
+
+.how__descrblock-btn2:hover {
+  outline: none;
+  color: #FFFFFF;
+  background: #666666;
+}
+
+.how__descrblock-btn2:active {
+  outline: none;
+  color: #FFFFFF;
+  background: #000000;
+}
+
+.how__descrblock {
+  min-width: 437px;
+  display: flex;
+  flex-direction: column;
+  max-width: 758px;
+  width: 47.3%;
+}
+
+.how__rolblock-item {
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: 49.1% auto;
+  background-position: right 9px;
+  min-height: 460px;
+  border-radius: 32px;
+}
+
+.how__img1 {
+  background-image: url(../img/how__step1_extralarge.jpg);
+}
+
+.how__img2 {
+  background-image: url(../img/how__step2_extralarge.jpg);
+}
+
+.how__img3 {
+  background-image: url(../img/how__step3_extralarge.jpg);
+}
+
+.how__img4 {
+  background-image: url(../img/how__step4_extralarge.jpg);
+}
+
+/* JS */
+
+.how__step-btn--active {
+  color: #E1670E;
+}
+
+.how__rolblock {
+  display: none;
+}
+
+.how__rolblock--active {
+  display: block;
+}
+
+
+@media (max-width: 1362px) {
+  .how {
+    padding-bottom: 81px;
+  }
+
+  .how__rolblock-item {
+    background-position: right 11px;
+    background-size: 47.3% auto;
+  }
+
+  .how__step {
+    margin-bottom: 50px;
+  }
+
+  .how__step-block:not(:last-child) {
+    margin-right: 86px;
+  }
+
+  .how__descrblock {
+    margin-right: 5%;
+    min-width: 0;
+  }
+
+  .how__descrblock-desc {
+    margin-bottom: 25px;
+  }
+
+  .how__descrblock-btn1 {
+    padding: 19px 40px;
+  }
+
+  .how__descrblock-btn2 {
+    padding: 20px 37px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .how__img1 {
+    background-image: url(../img/how__step1_large.jpg);
+  }
+
+  .how__img2 {
+    background-image: url(../img/how__step2_large.jpg);
+  }
+
+  .how__img3 {
+    background-image: url(../img/how__step3_large.jpg);
+  }
+
+  .how__img4 {
+    background-image: url(../img/how__step4_large.jpg);
+  }
+}
+
+
+@media (max-width: 769px) {
+  .how {
+    padding-bottom: 50px;
+  }
+
+  .how__title {
+    margin-bottom: 49px;
+  }
+
+  .how__descrblock-title {
+    margin-bottom: 8px;
+  }
+
+  .how__descrblock-desc {
+    margin-bottom: 24px;
+  }
+
+  .how__rolblock-item {
+    background-position: top;
+    background-size: 100% auto;
+    border-radius: 24px;
+  }
+
+  .how__img1 {
+    background-image: url(../img/how__step1_medium.jpg);
+  }
+
+  .how__img2 {
+    background-image: url(../img/how__step2_medium.jpg);
+  }
+
+  .how__img3 {
+    background-image: url(../img/how__step3_medium.jpg);
+  }
+
+  .how__img4 {
+    background-image: url(../img/how__step4_medium.jpg);
+  }
+
+  .how__descrblock {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 48.1%;
+  }
+
+  .how__step {
+    margin-bottom: 49px;
+  }
+
+  .how__step-list {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .how__step-block:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .how__image {
+    max-width: 100%;
+    height: 284px;
+    margin-bottom: 39px;
+  }
+
+  .how__img {
+    border-radius: 24px;
+  }
+}
+
+@media (max-width: 501px) {
+  .how {
+    padding-bottom: 60px;
+  }
+
+  .how__title {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+  .how__step {
+    margin-bottom: 15px;
+  }
+
+  .how__step-btn {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .how__image {
+    height: 160px;
+    margin-bottom: 16px;
+  }
+
+  .how__img {
+    border-radius: 16px;
+  }
+
+  .how__rolblock-item {
+    background-size: 100% auto;
+  }
+
+  .how__descrblock {
+    margin-top: 46%;
+  }
+
+  .how__descrblock-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+
+  .how__descrblock-desc {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 25px;
+  }
+
+  .how__descrblock-btn1 {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 11px 45px;
+    margin-right: 10px;
+    border-radius: 8px;
+  }
+
+  .how__descrblock-btn2 {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 11px 32px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 320px) {
+  .how__rolblock-item {
+    background-size: 100% auto;
+  }
+
+  .how__img1 {
+    background-image: url(../img/how__step1_small.jpg);
+  }
+
+  .how__img2 {
+    background-image: url(../img/how__step2_small.jpg);
+  }
+
+  .how__img3 {
+    background-image: url(../img/how__step3_small.jpg);
+  }
+
+  .how__img4 {
+    background-image: url(../img/how__step4_small.jpg);
+  }
+
+  .how__descrblock {
+    margin-top: 61%;
+  }
+}
